@@ -13,4 +13,22 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <!-- add dependencies from repository JCactus-->
+    <dependencies>
+        <dependency>
+            <groupId>SvyatoslavNovikov</groupId>
+            <artifactId>JCactus</artifactId>
+            <version>0.1</version>
+        </dependency>
+    </dependencies>
+
+    <!-- add repository JCactus -->
+    <repositories>
+        <repository>
+            <id>JCactus</id>
+            <url>https://raw.github.com/SvyatoslavNovikov/JCactus/mvn-repo/</url>
+        </repository>
+    </repositories>
+
+
 </project>
